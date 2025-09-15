@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Optional: Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Jeff Zhengv</div>
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
+                <li><a href="#" class="nav-link" data-page="personal">Personal Projects</a></li>
+                <li><a href="#" class="nav-link" data-page="class">Class Projects</a></li>
+                <li><a href="#" class="nav-link" data-page="other">Other</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">🌙</button>
+            <button class="mobile-menu-toggle" id="mobileToggle">☰</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Page -->
+        <div class="page active" id="home">
+            <section class="hero">
+                <div class="container">
+                    <h1>Welcome to My Portfolio</h1>
+                    <p>I'm a passionate developer creating amazing projects and learning new technologies. Explore my work across personal projects, academic work, and other creative endeavors.</p>
+                </div>
+            </section>
+
+            <section class="container">
+                <div class="section-header">
+                    <h2>Featured Projects</h2>
+                    <p>A selection of my best work across different categories</p>
+                </div>
+                
+                <div class="projects-grid" id="featured-projects">
+                    <!-- Projects will be loaded dynamically -->
+                </div>
+            </section>
+        </div>
+
+        <!-- Personal Projects Page -->
+        <div class="page" id="personal">
+            <section class="container">
+                <div class="section-header">
+                    <h2>Personal Projects</h2>
+                    <p>Projects I've built in my free time to explore new technologies and solve interesting problems</p>
+                </div>
+                <div class="projects-grid" id="personal-projects">
+                    <!-- Projects will be loaded dynamically -->
+                </div>
+            </section>
+        </div>
+
+        <!-- Class Projects Page -->
+        <div class="page" id="class">
+            <section class="container">
+                <div class="section-header">
+                    <h2>Class Projects</h2>
+                    <p>Academic projects that demonstrate my learning journey and technical growth</p>
+                </div>
+                <div class="projects-grid" id="class-projects">
+                    <!-- Projects will be loaded dynamically -->
+                </div>
+            </section>
+        </div>
+
+        <!-- Other Projects Page -->
+        <div class="page" id="other">
+            <section class="container">
+                <div class="section-header">
+                    <h2>Other Work</h2>
+                    <p>Freelance projects, collaborations, open source contributions, and experimental work</p>
+                </div>
+                <div class="projects-grid" id="other-projects">
+                    <!-- Projects will be loaded dynamically -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- JavaScript Files -->
+    <script src="js/theme.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "My personal portfolio website",
+  "scripts": {
+    "start": "http-server -p 3000 -o",
+    "dev": "http-server -p 3000 -o -c-1",
+    "serve": "python -m http.server 8000"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
