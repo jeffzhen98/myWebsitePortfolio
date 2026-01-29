@@ -7,20 +7,20 @@ Customize these variables to change the entire site's appearance
 
 :root {
     /* Primary Color Palette - Customize these for different themes */
-    --primary-color: #6366f1;          /* Main brand color */
-    --primary-dark: #4f46e5;           /* Darker shade for hovers */
-    --secondary-color: #06b6d4;        /* Accent color */
-    --accent-color: #f59e0b;           /* Highlight color */
+    --primary-color: #6d8bff;          /* Main brand color */
+    --primary-dark: #4f6bff;           /* Darker shade for hovers */
+    --secondary-color: #3bd1ff;        /* Accent color */
+    --accent-color: #ffb347;           /* Highlight color */
     
     /* Background Colors */
-    --bg-primary: #0f172a;             /* Main background */
-    --bg-secondary: #1e293b;           /* Card backgrounds */
-    --bg-tertiary: #334155;            /* Hover states */
+    --bg-primary: #0b0f17;             /* Main background */
+    --bg-secondary: #121826;           /* Card backgrounds */
+    --bg-tertiary: #1f2937;            /* Hover states */
     
     /* Text Colors */
-    --text-primary: #f8fafc;           /* Main text */
-    --text-secondary: #cbd5e1;         /* Secondary text */
-    --text-muted: #94a3b8;             /* Muted text */
+    --text-primary: #f5f7ff;           /* Main text */
+    --text-secondary: #c7d2fe;         /* Secondary text */
+    --text-muted: #9aa4bf;             /* Muted text */
     
     /* Layout Variables */
     --container-width: 1200px;         /* Max content width */
@@ -51,14 +51,14 @@ Customize these variables to change the entire site's appearance
     /* Border Radius */
     --radius-sm: 0.375rem;
     --radius-md: 0.5rem;
-    --radius-lg: 0.75rem;
-    --radius-xl: 1rem;
+    --radius-lg: 0.9rem;
+    --radius-xl: 1.25rem;
     
     /* Shadows */
-    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 10px 30px -12px rgba(8, 15, 35, 0.6);
+    --shadow-lg: 0 24px 50px -20px rgba(5, 10, 25, 0.7);
+    --shadow-xl: 0 40px 80px -30px rgba(4, 8, 20, 0.8);
     
     /* Transitions */
     --transition-fast: 0.2s ease;
@@ -68,12 +68,12 @@ Customize these variables to change the entire site's appearance
 
 /* Light Theme Variables */
 [data-theme="light"] {
-    --bg-primary: #ffffff;
-    --bg-secondary: #f8fafc;
-    --bg-tertiary: #e2e8f0;
-    --text-primary: #1e293b;
-    --text-secondary: #475569;
-    --text-muted: #64748b;
+    --bg-primary: #eef7f2;
+    --bg-secondary: #f9fbf8;
+    --bg-tertiary: #dbe5dc;
+    --text-primary: #0b1220;
+    --text-secondary: #273447;
+    --text-muted: #4b5563;
 }
 
 /* Additional theme examples - uncomment to use */

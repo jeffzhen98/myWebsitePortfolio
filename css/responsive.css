@@ -15,6 +15,10 @@ Easy to modify breakpoints and mobile-specific styles
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: var(--space-6);
     }
+
+    .hero-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* Mobile Styles */
@@ -43,6 +47,19 @@ Easy to modify breakpoints and mobile-specific styles
 
     .hero h1 {
         font-size: var(--font-size-3xl);
+    }
+
+    .hero {
+        padding-top: calc(var(--space-12) + var(--space-6));
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .hero-metrics {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .section-header h2 {
@@ -88,6 +105,10 @@ Easy to modify breakpoints and mobile-specific styles
     
     .section-header p {
         font-size: var(--font-size-base);
+    }
+
+    .hero-image {
+        aspect-ratio: 4 / 3;
     }
 }
 
